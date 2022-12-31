@@ -1,9 +1,17 @@
 //1. Print JS output in 4 ways
+
+//alert
+alert('Js Alert Output');
+
+//console.log
 console.log('Js Console Output');
-const appId = document.getElementById('app');
-appId.innerHTML('Document');
+
+//innerHTML
+const paragraph1Id = document.getElementById('paragraph1');
+paragraph1Id.innerHTML = 'innerHTML Ouput';
+
+//document.write
 document.write('Document Output');
-//alert('Js Alert Output');
 
 //2. Variable Hoisting Example ?
 //3. Function Hoisting Vs IIFE example ?
